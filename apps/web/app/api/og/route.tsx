@@ -1,5 +1,4 @@
 import { ImageResponse } from "next/og";
-import { Logo } from "@/components/shared/logo";
 import { getModel, getProvider } from "@/lib/data";
 import { formatTokens } from "@/lib/format";
 
@@ -78,9 +77,14 @@ export async function GET(request: Request) {
       }}
     >
       <div style={{ display: "flex", alignItems: "center", gap: 16 }}>
-        <Logo size={36} color="#fafafa" />
+        <img
+          src="https://hub.autorply.sa/autorply-logo.png"
+          width={36}
+          height={36}
+          alt="Autorply"
+        />
         <div style={{ display: "flex", fontSize: 18, color: "#71717a" }}>
-          {`${providerInfo?.name ?? provider} · modelpedia.dev`}
+          {`${providerInfo?.name ?? provider} · hub.autorply.sa`}
         </div>
       </div>
 

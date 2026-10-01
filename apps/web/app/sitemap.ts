@@ -1,7 +1,7 @@
 import type { MetadataRoute } from "next";
 import { providers } from "@/lib/data";
 
-const BASE = "https://modelpedia.dev";
+const BASE = "https://hub.autorply.sa";
 
 export async function generateSitemaps() {
   return [{ id: "main" }, ...providers.map((p) => ({ id: p.id }))];

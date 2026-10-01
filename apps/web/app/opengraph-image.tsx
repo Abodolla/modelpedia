@@ -1,9 +1,8 @@
 import { ImageResponse } from "next/og";
-import { Logo } from "@/components/shared/logo";
 import { allModels, providers } from "@/lib/data";
 
 export const runtime = "nodejs";
-export const alt = "modelpedia";
+export const alt = "Autorply AI Hub";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 
@@ -30,9 +29,14 @@ export default function OGImage() {
       }}
     >
       <div style={{ display: "flex", alignItems: "center", gap: 16 }}>
-        <Logo size={36} color="#fafafa" />
+        <img
+          src="https://hub.autorply.sa/autorply-logo.png"
+          width={36}
+          height={36}
+          alt="Autorply"
+        />
         <div style={{ display: "flex", fontSize: 18, color: "#71717a" }}>
-          modelpedia.dev
+          hub.autorply.sa
         </div>
       </div>
 
@@ -52,7 +56,7 @@ export default function OGImage() {
             letterSpacing: "-0.03em",
           }}
         >
-          modelpedia
+          Autorply AI Hub
         </div>
         <div
           style={{

@@ -13,7 +13,7 @@ export function GET() {
             ? `Removed: ${e.model} (${providerName})`
             : `Updated: ${e.model} (${providerName})`;
 
-      const link = `https://modelpedia.dev/${e.provider}/${e.model}`;
+      const link = `https://hub.autorply.sa/${e.provider}/${e.model}`;
 
       let description = title;
       if (e.action === "update" && e.changes) {
@@ -34,11 +34,11 @@ export function GET() {
   const xml = `<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>modelpedia — Changes</title>
-    <link>https://modelpedia.dev/changes</link>
-    <description>New models, pricing changes, and provider updates tracked by modelpedia.</description>
+    <title>Autorply AI Hub — Changes</title>
+    <link>https://hub.autorply.sa/changes</link>
+    <description>New models, pricing changes, and provider updates tracked by Autorply AI Hub.</description>
     <language>en</language>
-    <atom:link href="https://modelpedia.dev/changes/feed.xml" rel="self" type="application/rss+xml"/>
+    <atom:link href="https://hub.autorply.sa/changes/feed.xml" rel="self" type="application/rss+xml"/>
 ${items}
   </channel>
 </rss>`;

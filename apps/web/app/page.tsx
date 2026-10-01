@@ -9,7 +9,7 @@ import { FEATURED_PROVIDERS } from "@/lib/constants";
 import { allModels, getProvider, providers } from "@/lib/data";
 
 export const metadata: Metadata = {
-  title: "modelpedia - Open catalog of AI models",
+  title: "Autorply AI Hub - Open catalog of AI models",
   description:
     "Browse, compare, and search AI models across providers. Specs, pricing, and capabilities in one place.",
 };
@@ -26,7 +26,7 @@ export default function HomePage() {
       <div className="mb-10 space-y-6">
         <div>
           <h1 className="text-foreground text-2xl font-medium tracking-tight text-balance">
-            modelpedia
+            Autorply AI Hub
           </h1>
           <p className="text-muted-foreground mt-2 leading-relaxed text-balance">
             Open catalog of AI models across providers. Compare specs, pricing,

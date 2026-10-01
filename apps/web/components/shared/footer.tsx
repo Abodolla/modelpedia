@@ -9,30 +9,19 @@ export function Footer() {
       <div className="via-foreground/10 mb-4 h-px bg-linear-to-r from-transparent to-transparent" />
       <div className="flex flex-col items-center gap-3 sm:flex-row sm:justify-between">
         <a
-          href="https://agentbase.dev"
+          href="https://autorply.sa"
           target="_blank"
           rel="noopener noreferrer"
           className={LINK_CLASS}
         >
-          &copy; {new Date().getFullYear()} AgentbaseAI Inc.
+          &copy; {new Date().getFullYear()} Autorply
         </a>
+
         <div className="flex items-center gap-5">
-          <a
-            href="https://www.assistant-ui.com"
-            target="_blank"
-            rel="noopener noreferrer"
-            className={LINK_CLASS}
-          >
-            assistant-ui.com
+          <a href="https://hub.autorply.sa" className={LINK_CLASS}>
+            Autorply AI Hub
           </a>
-          <a
-            href="https://github.com/assistant-ui/modelpedia"
-            target="_blank"
-            rel="noopener noreferrer"
-            className={LINK_CLASS}
-          >
-            GitHub
-          </a>
+
           <ThemeToggle />
         </div>
       </div>

@@ -40,7 +40,7 @@ export function Header({ commandPaletteData }: HeaderProps) {
           className="text-foreground flex items-center gap-2 font-semibold tracking-tight"
         >
           <Logo className="h-5 w-5" />
-          modelpedia
+          Autorply AI Hub
         </Link>
       </div>
 

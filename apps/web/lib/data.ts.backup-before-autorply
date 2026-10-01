@@ -14,7 +14,6 @@ import {
   priceHistory,
 } from "@modelpedia/data";
 import { normalizeModelId } from "./search";
-import { autorplyProviders } from "./autorply-providers";
 
 export type {
   Model,
@@ -27,43 +26,18 @@ export type {
   ProviderWithModels,
 } from "@modelpedia/data";
 
-const upstreamProviderIds = new Set(_providers.map((p) => p.id));
-
-const customProviders = autorplyProviders.filter(
-  (p) => !upstreamProviderIds.has(p.id),
-);
-
-export const providers: ProviderWithModels[] = [
-  ..._providers,
-  ...customProviders,
-];
-
-const customModels: Model[] = customProviders.flatMap((provider) =>
-  provider.models.map((model) => ({
-    ...model,
-    provider: provider.id,
-  })),
-);
-
-export const allModels: Model[] = [..._allModels, ...customModels];
-
+export const allModels: Model[] = _allModels;
+export const providers: ProviderWithModels[] = _providers;
 export function getModel(provider: string, id: string): Model | undefined {
   const decoded = decodeURIComponent(id);
-
   return (
     _getModel(provider, decoded) ??
     allModels.find(
-      (m) =>
-        m.provider === provider &&
-        (m.id === decoded || m.snapshots?.includes(decoded)),
+      (m) => m.provider === provider && m.snapshots?.includes(decoded),
     )
   );
 }
-
-export function getProvider(id: string): ProviderWithModels | undefined {
-  return providers.find((p) => p.id === id);
-}
-
+export const getProvider = _getProvider;
 export {
   getActiveModels,
   getAllProviders,

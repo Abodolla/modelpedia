@@ -21,6 +21,7 @@ const COUNTRY_COORDS: Record<string, [number, number]> = {
   CA: [-79, 44],
   FR: [2, 47],
   GB: [-1, 53],
+  SA: [46.6753, 24.7136],
 };
 
 const COUNTRY_NAMES: Record<string, string> = {
@@ -29,6 +30,7 @@ const COUNTRY_NAMES: Record<string, string> = {
   CA: "Canada",
   FR: "France",
   GB: "United Kingdom",
+  SA: "Saudi Arabia",
 };
 
 interface CountryCluster {

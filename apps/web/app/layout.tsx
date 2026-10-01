@@ -1,4 +1,3 @@
-import { Analytics } from "@vercel/analytics/next";
 import type { Metadata, Viewport } from "next";
 import { Footer } from "@/components/shared/footer";
 import { FormatToggle } from "@/components/shared/format-toggle";
@@ -20,8 +19,8 @@ export const viewport: Viewport = {
 
 export const metadata: Metadata = {
   title: {
-    template: "%s — modelpedia",
-    default: "modelpedia — Open catalog of AI models",
+    template: "%s — Autorply AI Hub",
+    default: "Autorply AI Hub — AI Models Catalog",
   },
   description:
     "Browse, compare, and search 4000+ AI models across 30+ providers. Specs, pricing, capabilities, and a free API.",
@@ -37,16 +36,16 @@ export const metadata: Metadata = {
     "Gemini",
     "pricing",
   ],
-  icons: { icon: "/icon.svg" },
-  metadataBase: new URL("https://modelpedia.dev"),
+  icons: { icon: "/autorply-logo.png", apple: "/apple-icon.png" },
+  metadataBase: new URL("https://hub.autorply.sa"),
   openGraph: {
     type: "website",
-    siteName: "modelpedia",
+    siteName: "Autorply AI Hub",
     locale: "en_US",
   },
   twitter: {
     card: "summary_large_image",
-    site: "@modelpedia",
+    site: "@autorply",
   },
   alternates: {
     canonical: "/",
@@ -97,8 +96,8 @@ export default async function RootLayout({
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "WebSite",
-              name: "modelpedia",
-              url: "https://modelpedia.dev",
+              name: "Autorply AI Hub",
+              url: "https://hub.autorply.sa",
               description:
                 "Open catalog of AI model data — specs, pricing, and capabilities across 30+ providers and 4000+ models.",
               potentialAction: {
@@ -106,7 +105,7 @@ export default async function RootLayout({
                 target: {
                   "@type": "EntryPoint",
                   urlTemplate:
-                    "https://modelpedia.dev/models?q={search_term_string}",
+                    "https://hub.autorply.sa/models?q={search_term_string}",
                 },
                 "query-input": "required name=search_term_string",
               },
@@ -122,7 +121,6 @@ export default async function RootLayout({
           </div>
           <FormatToggle />
         </Provider>
-        <Analytics />
       </body>
     </html>
   );

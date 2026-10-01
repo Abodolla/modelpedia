@@ -6,14 +6,12 @@ export function ProviderIcon({
   size?: number;
 }) {
   if (!provider?.icon) return null;
-  const svg = provider.icon.replace(
-    "<svg ",
-    `<svg width="${size}" height="${size}" `,
-  );
+
   return (
     <span
-      className="text-muted-foreground shrink-0"
-      dangerouslySetInnerHTML={{ __html: svg }}
+      className="text-muted-foreground shrink-0 [&>svg]:block [&>svg]:h-full [&>svg]:w-full"
+      style={{ width: size, height: size }}
+      dangerouslySetInnerHTML={{ __html: provider.icon }}
     />
   );
 }

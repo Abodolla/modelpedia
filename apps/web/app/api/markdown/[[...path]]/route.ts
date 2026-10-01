@@ -71,7 +71,7 @@ export async function GET(
 
 function renderHome(): string {
   return [
-    "# modelpedia",
+    "# Autorply AI Hub",
     "",
     `${allModels.length} models across ${providers.length} providers.`,
     "",
@@ -168,7 +168,7 @@ function renderCompare(): string {
     "GET https://api.modelpedia.dev/v1/models/compare?ids=openai/gpt-4o,anthropic/claude-sonnet-4-6",
     "```",
     "",
-    "Or browse the compare page at https://modelpedia.dev/compare",
+    "Or browse the compare page at https://hub.autorply.sa/compare",
   ].join("\n");
 }
 

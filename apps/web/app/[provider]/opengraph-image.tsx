@@ -1,5 +1,4 @@
 import { ImageResponse } from "next/og";
-import { Logo } from "@/components/shared/logo";
 import { getProvider } from "@/lib/data";
 import { regionFlag } from "@/lib/format";
 
@@ -60,9 +59,14 @@ export default async function OGImage({
       }}
     >
       <div style={{ display: "flex", alignItems: "center", gap: 16 }}>
-        <Logo size={36} color="#fafafa" />
+        <img
+          src="https://hub.autorply.sa/autorply-logo.png"
+          width={36}
+          height={36}
+          alt="Autorply"
+        />
         <div style={{ display: "flex", fontSize: 18, color: "#71717a" }}>
-          modelpedia.dev
+          hub.autorply.sa
         </div>
       </div>
 

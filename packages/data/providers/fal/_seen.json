@@ -1,6 +1,6 @@
 {
   "date": "2026-10-01",
-  "count": 1498,
+  "count": 1501,
   "ids": [
     "alibaba-happy-horse-image-to-video",
     "alibaba-happy-horse-reference-to-video",
@@ -1352,6 +1352,7 @@
     "minimax-h3-max-image-to-video",
     "minimax-h3-max-insert-video",
     "minimax-h3-max-lip-sync-image-to-video",
+    "minimax-h3-max-recast",
     "minimax-h3-max-reference-to-video",
     "minimax-h3-max-styles-16bit-pixel",
     "minimax-h3-max-styles-hand-drawn",
@@ -1495,6 +1496,8 @@
     "xai-grok-imagine-video-reference-to-video",
     "xai-grok-imagine-video-text-to-video",
     "xai-grok-imagine-video-v1.5-image-to-video",
+    "xai-grok-imagine-video-v1.5-lite-image-to-video",
+    "xai-grok-imagine-video-v1.5-lite-text-to-video",
     "xai-grok-imagine-video-v1.5-reference-to-video",
     "xai-grok-imagine-video-v1.5-text-to-video",
     "xai-grok-voice",

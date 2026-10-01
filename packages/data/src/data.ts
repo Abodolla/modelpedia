@@ -111994,6 +111994,20 @@ export const providers: ProviderWithModels[] = [
         "last_updated": "2026-09-15"
       },
       {
+        "id": "minimax/h3-max/recast",
+        "name": "H3 Max Recast",
+        "created_by": "minimax",
+        "source": "official",
+        "description": "Recast the people in a video using reference photos with H3 Max, while preserving the source motion, camera, cuts, and audio.",
+        "status": "active",
+        "release_date": "2026-10-01",
+        "model_type": "other",
+        "page_url": "https://fal.run/minimax/h3-max/recast",
+        "tagline": "Recast the people in a video using reference photos with H3 Max, while preserving the source motion, camera, cuts, and audio.",
+        "last_seen_at": "2026-10-01",
+        "last_updated": "2026-10-01"
+      },
+      {
         "id": "minimax/h3-max/reference-to-video",
         "name": "H3 Max Reference to Video",
         "created_by": "minimax",
@@ -115323,6 +115337,62 @@ export const providers: ProviderWithModels[] = [
         ],
         "last_seen_at": "2026-08-01",
         "last_updated": "2026-08-02"
+      },
+      {
+        "id": "xai/grok-imagine-video/v1.5/lite/image-to-video",
+        "name": "Grok Imagine Video 1.5 Lite Image to Video",
+        "created_by": "xai",
+        "source": "official",
+        "family": "grok-imagine",
+        "description": "Generate videos from images using xAI's Grok Imagine Video 1.5 Lite model.",
+        "status": "active",
+        "release_date": "2026-09-30",
+        "model_type": "video",
+        "page_url": "https://fal.run/xai/grok-imagine-video/v1.5/lite/image-to-video",
+        "tagline": "Generate videos from images using xAI's Grok Imagine Video 1.5 Lite model.",
+        "capabilities": {
+          "vision": true
+        },
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "video"
+          ]
+        },
+        "endpoints": [
+          "video"
+        ],
+        "last_seen_at": "2026-10-01",
+        "last_updated": "2026-10-01"
+      },
+      {
+        "id": "xai/grok-imagine-video/v1.5/lite/text-to-video",
+        "name": "Grok Imagine Video 1.5 Lite Text to Video",
+        "created_by": "xai",
+        "source": "official",
+        "family": "grok-imagine",
+        "description": "Generate videos from text prompts using xAI's Grok Imagine Video 1.5 Lite model.",
+        "status": "active",
+        "release_date": "2026-10-01",
+        "model_type": "video",
+        "page_url": "https://fal.run/xai/grok-imagine-video/v1.5/lite/text-to-video",
+        "tagline": "Generate videos from text prompts using xAI's Grok Imagine Video 1.5 Lite model.",
+        "modalities": {
+          "input": [
+            "text"
+          ],
+          "output": [
+            "video"
+          ]
+        },
+        "endpoints": [
+          "video"
+        ],
+        "last_seen_at": "2026-10-01",
+        "last_updated": "2026-10-01"
       },
       {
         "id": "xai/grok-imagine-video/v1.5/reference-to-video",
@@ -179232,9 +179302,9 @@ export const providers: ProviderWithModels[] = [
           ]
         },
         "pricing": {
-          "input": 0.375,
-          "output": 9.107,
-          "cached_input": 0.29
+          "input": 0.415,
+          "output": 10,
+          "cached_input": 0.415
         },
         "tools": [
           "function_calling"
@@ -179537,7 +179607,7 @@ export const providers: ProviderWithModels[] = [
         "description": "This model always redirects to the latest GLM model from Z.ai.",
         "release_date": "2026-08-19",
         "context_window": 1048576,
-        "max_output_tokens": 235929,
+        "max_output_tokens": 943718,
         "model_type": "chat",
         "tagline": "This model always redirects to the latest GLM model from Z.ai.",
         "capabilities": {
@@ -179555,9 +179625,9 @@ export const providers: ProviderWithModels[] = [
           ]
         },
         "pricing": {
-          "input": 0.12,
-          "output": 1.14,
-          "cached_input": 0.067
+          "input": 0.106,
+          "output": 2.653,
+          "cached_input": 0.176
         },
         "tools": [
           "function_calling"
@@ -190579,9 +190649,9 @@ export const providers: ProviderWithModels[] = [
           ]
         },
         "pricing": {
-          "input": 0.375,
-          "output": 9.107,
-          "cached_input": 0.29
+          "input": 0.415,
+          "output": 10,
+          "cached_input": 0.415
         },
         "tools": [
           "function_calling"
@@ -216139,7 +216209,7 @@ export const providers: ProviderWithModels[] = [
         "name": "Moondream2",
         "created_by": "lucataco",
         "source": "official",
-        "status": "deprecated",
+        "status": "active",
         "model_type": "other",
         "page_url": "https://replicate.com/lucataco/moondream2",
         "last_updated": "2026-10-01"
@@ -217375,7 +217445,7 @@ export const providers: ProviderWithModels[] = [
         "name": "P Image Edit",
         "created_by": "prunaai",
         "source": "official",
-        "status": "active",
+        "status": "deprecated",
         "model_type": "image",
         "page_url": "https://replicate.com/prunaai/p-image-edit",
         "capabilities": {
@@ -217392,7 +217462,7 @@ export const providers: ProviderWithModels[] = [
         "endpoints": [
           "images"
         ],
-        "last_updated": "2026-09-25"
+        "last_updated": "2026-10-01"
       },
       {
         "id": "prunaai/p-image-ideogram",

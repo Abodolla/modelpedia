@@ -1,12 +1,12 @@
 {
   "id": "gpt-4o-mini-audio-preview",
-  "name": "GPT-4o mini Audio",
+  "name": "GPT-4o Mini Audio",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-26",
+  "last_updated": "2026-09-24",
   "family": "gpt-4o",
-  "description": "This is a preview release of the smaller GPT-4o Audio mini model. It's designed to input audio or create audio outputs via the REST API.",
-  "status": "active",
+  "description": "This is a preview release of the smaller GPT-4o Audio Mini model. It's designed to input audio or create audio outputs via the REST API.",
+  "status": "deprecated",
   "knowledge_cutoff": "2023-10",
   "context_window": 128000,
   "max_output_tokens": 16384,
@@ -34,35 +34,35 @@
       {
         "label": "Text tokens",
         "unit": "Per 1M tokens",
-        "columns": ["Input", "Cached input", "Output"],
+        "columns": ["Input", "Output"],
         "rows": [
           {
             "label": "Standard",
-            "values": [0.15, null, 0.6]
+            "values": [0.15, 0.6]
           }
         ]
       },
       {
         "label": "Audio tokens",
         "unit": "Per 1M tokens",
-        "columns": ["Input", "Cached input", "Output"],
+        "columns": ["Input", "Output"],
         "rows": [
           {
             "label": "Standard",
-            "values": [10, null, 20]
+            "values": [10, 20]
           }
         ]
       }
     ]
   },
-  "tools": ["function_calling"],
+  "tools": ["web_search", "file_search", "code_interpreter", "mcp"],
   "endpoints": ["chat_completions"],
   "snapshots": ["gpt-4o-mini-audio-preview-2024-12-17"],
   "_generated": {
-    "name": "070b0f97",
+    "name": "da00d441",
     "family": "15249632",
-    "description": "e16b5473",
-    "status": "379ac110",
+    "description": "8d90eb2d",
+    "status": "2e2f74dc",
     "knowledge_cutoff": "ffb42dbe",
     "context_window": "34434798",
     "max_output_tokens": "c76fe1d8",
@@ -72,16 +72,22 @@
     "tagline": "f8a28d60",
     "capabilities": "e8cba1a0",
     "modalities": "cf05925d",
-    "pricing": "688cb68b",
-    "tools": "f0c1dc7e",
+    "pricing": "185b8992",
+    "tools": "bb91d170",
     "endpoints": "d8fa1080",
     "license": "9186c466",
-    "page_url": "7866df0a",
+    "page_url": "f41a57da",
     "open_weight": "68934a3e",
-    "release_date": "4a83ff32"
+    "release_date": "4a83ff32",
+    "deprecation_date": "792c58a8",
+    "retirement_date": "d465a48a",
+    "successor": "d79ec081"
   },
   "license": "proprietary",
-  "page_url": "https://developers.openai.com/api/docs/models/gpt-4o-mini-audio-preview?snapshot=gpt-4o-mini-audio-preview-2024-12-17",
+  "page_url": "https://developers.openai.com/api/docs/models/gpt-4o-mini-audio-preview",
   "open_weight": false,
-  "release_date": "2024-12-17"
+  "release_date": "2024-12-17",
+  "deprecation_date": "2025-09-15",
+  "retirement_date": "2026-05-07",
+  "successor": "gpt-audio-mini"
 }

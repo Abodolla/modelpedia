@@ -3,10 +3,10 @@
   "name": "o1-mini",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-04-01",
+  "last_updated": "2026-09-24",
   "family": "o1",
   "description": "The o1 reasoning model is designed to solve hard problems across domains. o1-mini is a faster and more affordable reasoning model, but we recommend using the newer o3-mini model that features higher intelligence at the same latency and price as o1-mini.",
-  "status": "active",
+  "status": "deprecated",
   "knowledge_cutoff": "2023-10",
   "context_window": 128000,
   "max_output_tokens": 65536,
@@ -44,10 +44,6 @@
           {
             "label": "Standard",
             "values": [1.1, 0.55, 4.4]
-          },
-          {
-            "label": "Batch",
-            "values": [0.55, null, 2.2]
           }
         ]
       }
@@ -60,7 +56,7 @@
     "name": "34f0dfa6",
     "family": "e1ab0820",
     "description": "211238ed",
-    "status": "379ac110",
+    "status": "2e2f74dc",
     "knowledge_cutoff": "ffb42dbe",
     "context_window": "34434798",
     "max_output_tokens": "297ce0b3",
@@ -72,16 +68,22 @@
     "tagline": "9ccc5290",
     "capabilities": "b9aba792",
     "modalities": "68e53d93",
-    "pricing": "ea08eb92",
+    "pricing": "77b314da",
     "tools": "25473f2d",
     "endpoints": "6558e44b",
     "license": "9186c466",
-    "page_url": "2106be9b",
+    "page_url": "149ea37e",
     "open_weight": "68934a3e",
-    "release_date": "928ac16b"
+    "release_date": "928ac16b",
+    "successor": "0ad044e2",
+    "deprecation_date": "1487959c",
+    "retirement_date": "7600ba0c"
   },
   "license": "proprietary",
-  "page_url": "https://developers.openai.com/api/docs/models/o1-mini?snapshot=o1-mini-2024-09-12",
+  "page_url": "https://developers.openai.com/api/docs/models/o1-mini",
   "open_weight": false,
-  "release_date": "2024-09-12"
+  "release_date": "2024-09-12",
+  "successor": "o4-mini",
+  "deprecation_date": "2025-04-28",
+  "retirement_date": "2025-10-27"
 }

@@ -1,0 +1,32 @@
+{
+  "id": "inclusionai/ling-3.0-flash-fin",
+  "name": "ling-3.0-flash-fin",
+  "created_by": "inclusionai",
+  "source": "official",
+  "context_window": 262100,
+  "model_type": "chat",
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true,
+    "reasoning": true
+  },
+  "pricing": {
+    "input": 0.06,
+    "output": 0.18
+  },
+  "modalities": {
+    "input": ["text"],
+    "output": ["text"]
+  },
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "f986c074",
+    "context_window": "b23f4471",
+    "model_type": "d669f408",
+    "capabilities": "a281e83a",
+    "pricing": "15cf3242",
+    "modalities": "68e53d93",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-09-26"
+}

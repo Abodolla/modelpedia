@@ -3,9 +3,9 @@
   "name": "gpt-5.2-2025-12-11",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-24",
+  "last_updated": "2026-09-24",
   "family": "gpt-5.2",
-  "description": "GPT-5.2 is our previous frontier model for complex professional work.",
+  "description": "GPT-5.2 is our previous flagship model for complex professional work.",
   "status": "active",
   "knowledge_cutoff": "2025-08",
   "context_window": 400000,
@@ -41,33 +41,33 @@
       {
         "label": "Text tokens",
         "unit": "Per 1M tokens",
-        "columns": ["Input", "Cached input", "Output"],
+        "columns": ["Input", "Cached input", "Output", "Cache writes"],
         "rows": [
           {
             "label": "Standard",
-            "values": [1.75, 0.175, 14]
+            "values": [1.75, 0.175, 14, null]
           },
           {
             "label": "Batch",
-            "values": [0.875, 0.0875, 7]
+            "values": [0.875, 0.0875, 7, null]
           },
           {
             "label": "Flex",
-            "values": [0.875, 0.0875, 7]
+            "values": [0.875, 0.0875, 7, null]
           },
           {
-            "label": "Priority",
-            "values": [3.5, 0.35, 28]
+            "label": "Fast",
+            "values": [3.5, 0.35, 28, null]
           }
         ]
       }
     ]
   },
-  "endpoints": ["responses", "chat_completions", "batch"],
+  "endpoints": ["chat_completions", "responses", "batch"],
   "_generated": {
     "name": "a967224b",
     "family": "f580564d",
-    "description": "9f30e983",
+    "description": "435bf74b",
     "status": "379ac110",
     "knowledge_cutoff": "5549a2cd",
     "context_window": "2a3a2d28",
@@ -80,8 +80,8 @@
     "tagline": "9f30e983",
     "capabilities": "6295d8b9",
     "modalities": "6399757e",
-    "pricing": "5047198f",
-    "endpoints": "88e8abb4",
+    "pricing": "d263d36b",
+    "endpoints": "ec55a017",
     "license": "9186c466",
     "release_date": "26371115",
     "page_url": "a53adbc5",

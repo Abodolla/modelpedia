@@ -3,7 +3,7 @@
   "name": "Qwen: Qwen3 30B A3B",
   "created_by": "qwen",
   "source": "official",
-  "last_updated": "2026-07-30",
+  "last_updated": "2026-10-01",
   "family": "qwen3",
   "description": "Qwen3, the latest generation in the Qwen large language model series, features both dense and mixture-of-experts (MoE) architectures to excel in reasoning, multilingual support, and advanced agent tasks.",
   "context_window": 131072,
@@ -38,7 +38,7 @@
     "tagline": "6ad69e1e",
     "tools": "f0c1dc7e",
     "status": "2e2f74dc",
-    "deprecation_date": "eb14ff7b"
+    "deprecation_date": "2020d4ea"
   },
   "model_type": "chat",
   "parameters": 30,
@@ -47,5 +47,5 @@
   "tagline": "Qwen3, the latest generation in the Qwen large language model series, features both dense and mixture-of-experts (MoE) architectures to excel in reasoning, multilingual support, and advanced agent tas",
   "tools": ["function_calling"],
   "status": "deprecated",
-  "deprecation_date": "2026-06-05"
+  "deprecation_date": "2026-10-09"
 }

@@ -1,8 +1,9 @@
 {
-  "date": "2026-07-31",
-  "count": 75,
+  "date": "2026-09-30",
+  "count": 85,
   "ids": [
     "antigravity-preview-05-2026",
+    "antigravity-preview-09-2026",
     "deep-research-max-preview-04-2026",
     "deep-research-preview-04-2026",
     "deep-research-pro-preview-12-2025",
@@ -48,7 +49,14 @@
     "gemini-3.5-flash",
     "gemini-3.5-flash-lite",
     "gemini-3.5-live-translate-preview",
+    "gemini-3.5-transcribe",
     "gemini-3.6-flash",
+    "gemini-3.7-flash",
+    "gemini-3.8-flash",
+    "gemini-3.8-flash-lite-tts",
+    "gemini-3.8-flash-tts",
+    "gemini-3.8-live",
+    "gemini-3.8-live-extended-thinking",
     "gemini-embedding-001",
     "gemini-embedding-2",
     "gemini-embedding-exp",
@@ -68,6 +76,7 @@
     "imagen-4.0-ultra-generate-preview-06-06",
     "lyria-3-clip-preview",
     "lyria-3-pro-preview",
+    "lyria-3.5",
     "lyria-realtime-exp",
     "text-embedding-004",
     "veo-2.0-generate-001",
@@ -75,6 +84,7 @@
     "veo-3.0-fast-generate-preview",
     "veo-3.0-generate-001",
     "veo-3.0-generate-preview",
+    "veo-3.1-fast-generate-preview",
     "veo-3.1-generate-preview",
     "veo-3.1-lite-generate-preview"
   ]

@@ -1,0 +1,89 @@
+{
+  "id": "gpt-image-2.5-flare-2026-09-08",
+  "name": "gpt-image-2.5-flare-2026-09-08",
+  "created_by": "openai",
+  "source": "official",
+  "family": "gpt-image-2.5",
+  "status": "active",
+  "release_date": "2026-09-08",
+  "model_type": "image",
+  "license": "proprietary",
+  "alias": "gpt-image-2.5-flare",
+  "performance": 4,
+  "speed": 5,
+  "page_url": "https://developers.openai.com/api/docs/models/gpt-image-2.5-flare?snapshot=gpt-image-2.5-flare-2026-09-08",
+  "open_weight": false,
+  "capabilities": {
+    "streaming": false,
+    "vision": false,
+    "tool_call": false,
+    "structured_output": false,
+    "json_mode": false,
+    "fine_tuning": false,
+    "reasoning": false,
+    "batch": true
+  },
+  "modalities": {
+    "input": ["text", "image"],
+    "output": ["image"]
+  },
+  "endpoints": ["batch", "image_generation", "image_edit"],
+  "_generated": {
+    "name": "68628ae4",
+    "family": "b65aa56d",
+    "status": "379ac110",
+    "release_date": "f070775f",
+    "model_type": "db8857fe",
+    "license": "9186c466",
+    "performance": "a87ff679",
+    "speed": "e4da3b7f",
+    "page_url": "dec65b59",
+    "open_weight": "68934a3e",
+    "capabilities": "ec32b5a4",
+    "modalities": "bbf9b8bb",
+    "endpoints": "af128fc0",
+    "description": "7e5e2001",
+    "tagline": "6379bb53",
+    "pricing": "7bb61094"
+  },
+  "last_updated": "2026-10-01",
+  "description": "GPT Image 2.5 Flare is our fastest model for high-quality, everyday image generation. It accepts text and image inputs and produces image outputs. It supports `low`, `medium`, `high`, `xhigh`, `max`, and `auto` quality settings. Select it directly in the Image API or as the model of the Responses API image generation tool. Learn more in the [image generation guide](/api/docs/guides/image-generation).\\n",
+  "tagline": "GPT Image 2.5 Flare is our fastest model for high-quality, everyday image generation.",
+  "pricing": {
+    "input": 5,
+    "cached_input": 1.25,
+    "tiers": [
+      {
+        "label": "Text tokens",
+        "unit": "Per 1M tokens",
+        "columns": ["Input", "Cached input", "Output"],
+        "rows": [
+          {
+            "label": "Standard",
+            "values": [5, 1.25, null]
+          },
+          {
+            "label": "Batch",
+            "values": [2.5, 0.625, null]
+          }
+        ]
+      },
+      {
+        "label": "Image tokens",
+        "unit": "Per 1M tokens",
+        "columns": ["Input", "Cached input", "Output"],
+        "rows": [
+          {
+            "label": "Standard",
+            "values": [8, 2, 30]
+          },
+          {
+            "label": "Batch",
+            "values": [4, 1, 15]
+          }
+        ]
+      }
+    ],
+    "batch_input": 2.5
+  }
+}

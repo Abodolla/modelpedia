@@ -6,7 +6,7 @@
   "family": "deepseek-chat",
   "description": "DeepSeek-V4-Pro hybrid model with both non-thinking and thinking (default) modes.",
   "status": "active",
-  "release_date": "2026-07-31",
+  "release_date": "2026-08-13",
   "context_window": 1000000,
   "max_output_tokens": 384000,
   "model_type": "chat",
@@ -25,20 +25,25 @@
     "output": ["text"]
   },
   "pricing": {
-    "input": 0.435,
-    "output": 0.87,
-    "cached_input": 0.003625
+    "input": 0.15,
+    "output": 0.6,
+    "cached_input": 0.003
   },
   "open_weight": true,
   "endpoints": ["chat_completions", "completions"],
   "tools": ["function_calling"],
-  "snapshots": ["deepseek-v4-pro-2026-04-24", "deepseek-v4-pro-2026-07-31"],
+  "snapshots": [
+    "deepseek-v4-pro-2026-04-24",
+    "deepseek-v4-pro-2026-07-31",
+    "deepseek-v4-pro-2026-08-13",
+    "deepseek-v4-pro-2026-09-10"
+  ],
   "_generated": {
     "name": "acc10913",
     "family": "fbd79fd9",
     "description": "7178a6ca",
     "status": "379ac110",
-    "release_date": "0ee605c3",
+    "release_date": "2a7fa61f",
     "context_window": "8155bc54",
     "max_output_tokens": "c58e26bd",
     "model_type": "d669f408",
@@ -47,10 +52,10 @@
     "tagline": "7178a6ca",
     "capabilities": "3938d31c",
     "modalities": "68e53d93",
-    "pricing": "6cd82e55",
+    "pricing": "56c766bc",
     "open_weight": "b326b506",
     "endpoints": "772bacef",
     "tools": "f0c1dc7e"
   },
-  "last_updated": "2026-07-31"
+  "last_updated": "2026-09-24"
 }

@@ -1,12 +1,12 @@
 {
   "id": "gpt-4o-mini-search-preview",
-  "name": "GPT-4o mini Search Preview",
+  "name": "GPT-4o Mini Search Preview",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-26",
+  "last_updated": "2026-09-24",
   "family": "gpt-4o",
-  "description": "GPT-4o mini Search Preview is a specialized model trained to understand and execute [web search](/api/docs/guides/tools-web-search?api-mode=chat) queries with the Chat Completions API. In addition to token fees, web search queries have a fee per tool call. Learn more in the [pricing](/api/docs/pricing) page.",
-  "status": "active",
+  "description": "GPT-4o Mini Search Preview is a specialized model trained to understand and execute web search queries with the Chat Completions API. In addition to token fees, web search queries have a fee per tool call. Learn more in the pricing page.",
+  "status": "deprecated",
   "knowledge_cutoff": "2023-10",
   "context_window": 128000,
   "max_output_tokens": 16384,
@@ -33,11 +33,11 @@
       {
         "label": "Text tokens",
         "unit": "Per 1M tokens",
-        "columns": ["Input", "Cached input", "Output"],
+        "columns": ["Input", "Output"],
         "rows": [
           {
             "label": "Standard",
-            "values": [0.15, null, 0.6]
+            "values": [0.15, 0.6]
           }
         ]
       }
@@ -46,10 +46,10 @@
   "endpoints": ["chat_completions"],
   "snapshots": ["gpt-4o-mini-search-preview-2025-03-11"],
   "_generated": {
-    "name": "df9b4b95",
+    "name": "3cc79c61",
     "family": "15249632",
-    "description": "7e9c1d49",
-    "status": "379ac110",
+    "description": "44383fcb",
+    "status": "2e2f74dc",
     "knowledge_cutoff": "ffb42dbe",
     "context_window": "34434798",
     "max_output_tokens": "c76fe1d8",
@@ -58,17 +58,23 @@
     "tagline": "75d14b10",
     "capabilities": "c9a424d9",
     "modalities": "68e53d93",
-    "pricing": "664250ce",
+    "pricing": "6974fb99",
     "endpoints": "d8fa1080",
     "model_type": "d669f408",
     "license": "9186c466",
-    "page_url": "e3c2db51",
+    "page_url": "a5ac572c",
     "open_weight": "68934a3e",
-    "release_date": "53813ccd"
+    "release_date": "53813ccd",
+    "deprecation_date": "c48b287d",
+    "retirement_date": "26fc75d3",
+    "successor": "d5215155"
   },
   "model_type": "chat",
   "license": "proprietary",
-  "page_url": "https://developers.openai.com/api/docs/models/gpt-4o-mini-search-preview?snapshot=gpt-4o-mini-search-preview-2025-03-11",
+  "page_url": "https://developers.openai.com/api/docs/models/gpt-4o-mini-search-preview",
   "open_weight": false,
-  "release_date": "2025-03-11"
+  "release_date": "2025-03-11",
+  "deprecation_date": "2026-04-22",
+  "retirement_date": "2026-07-23",
+  "successor": "gpt-5.6-terra"
 }

@@ -1,12 +1,12 @@
 {
   "id": "gpt-5-mini",
-  "name": "GPT-5 mini",
+  "name": "GPT-5 Mini",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-06-18",
+  "last_updated": "2026-09-24",
   "family": "gpt-5",
-  "description": "GPT-5 mini is a faster, more cost-efficient version of GPT-5. It's great for",
-  "status": "active",
+  "description": "GPT-5 Mini is a faster, more cost-efficient version of GPT-5. It's great for well-defined tasks and precise prompts. For most new low-latency, high-volume workloads, we recommend starting with GPT-5.6 Terra.",
+  "status": "deprecated",
   "knowledge_cutoff": "2024-05",
   "context_window": 400000,
   "max_output_tokens": 128000,
@@ -16,7 +16,7 @@
   "performance": 3,
   "reasoning": 3,
   "speed": 4,
-  "tagline": "Near-frontier intelligence for cost sensitive, low latency, high volume workloads",
+  "tagline": "Strong intelligence for cost sensitive, low latency, high volume workloads",
   "capabilities": {
     "streaming": true,
     "vision": true,
@@ -41,23 +41,23 @@
       {
         "label": "Text tokens",
         "unit": "Per 1M tokens",
-        "columns": ["Input", "Cached input", "Output"],
+        "columns": ["Input", "Cached input", "Cache writes", "Output"],
         "rows": [
           {
             "label": "Standard",
-            "values": [0.25, 0.025, 2]
+            "values": [0.25, 0.025, null, 2]
           },
           {
             "label": "Batch",
-            "values": [0.125, 0.0125, 1]
+            "values": [0.125, 0.0125, null, 1]
           },
           {
             "label": "Flex",
-            "values": [0.125, 0.0125, 1]
+            "values": [0.125, 0.0125, null, 1]
           },
           {
-            "label": "Priority",
-            "values": [0.45, 0.05, 3.6]
+            "label": "Fast",
+            "values": [0.45, 0.045, null, 3.6]
           }
         ]
       }
@@ -73,10 +73,10 @@
   "endpoints": ["chat_completions", "responses", "batch"],
   "snapshots": ["gpt-5-mini-2025-08-07"],
   "_generated": {
-    "name": "429d7643",
+    "name": "1abf4d32",
     "family": "aa904c16",
-    "description": "ccd20efb",
-    "status": "379ac110",
+    "description": "0bd1232b",
+    "status": "2e2f74dc",
     "knowledge_cutoff": "1d431428",
     "context_window": "2a3a2d28",
     "max_output_tokens": "34434798",
@@ -86,19 +86,25 @@
     "performance": "eccbc87e",
     "reasoning": "eccbc87e",
     "speed": "a87ff679",
-    "tagline": "2de7ea24",
+    "tagline": "482992c1",
     "capabilities": "6295d8b9",
     "modalities": "6399757e",
-    "pricing": "3ed6285a",
+    "pricing": "5513af98",
     "tools": "907918a7",
     "endpoints": "ec55a017",
     "license": "9186c466",
     "page_url": "830fa4d3",
     "open_weight": "68934a3e",
-    "release_date": "79c30d0c"
+    "release_date": "79c30d0c",
+    "deprecation_date": "af441ea0",
+    "retirement_date": "d0164be5",
+    "successor": "d5215155"
   },
   "license": "proprietary",
   "page_url": "https://developers.openai.com/api/docs/models/gpt-5-mini",
   "open_weight": false,
-  "release_date": "2025-08-07"
+  "release_date": "2025-08-07",
+  "deprecation_date": "2026-06-11",
+  "retirement_date": "2026-12-11",
+  "successor": "gpt-5.6-terra"
 }

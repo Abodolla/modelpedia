@@ -1,0 +1,21 @@
+{
+  "id": "liquid/d1",
+  "name": "d1",
+  "created_by": "liquid",
+  "source": "official",
+  "context_window": 65500,
+  "capabilities": {
+    "streaming": true
+  },
+  "pricing": {
+    "input": 0.04,
+    "output": 0
+  },
+  "_generated": {
+    "name": "59f86957",
+    "context_window": "90c532bc",
+    "capabilities": "0fa77dc6",
+    "pricing": "52a74acf"
+  },
+  "last_updated": "2026-10-01"
+}

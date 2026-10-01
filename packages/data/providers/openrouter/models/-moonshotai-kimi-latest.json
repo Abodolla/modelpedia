@@ -1,13 +1,13 @@
 {
   "id": "~moonshotai/kimi-latest",
-  "name": "MoonshotAI Kimi Latest",
+  "name": "MoonshotAI: Kimi Latest",
   "created_by": "~moonshotai",
   "source": "official",
   "family": "kimi",
-  "description": "This model always redirects to the latest model in the MoonshotAI Kimi family.",
+  "description": "This model always redirects to the latest model in the Kimi family.",
   "release_date": "2026-04-27",
   "context_window": 1048576,
-  "max_output_tokens": 1048576,
+  "max_output_tokens": 943718,
   "model_type": "chat",
   "tagline": "This model always redirects to the latest model in the MoonshotAI Kimi family.",
   "capabilities": {
@@ -17,28 +17,28 @@
     "json_mode": true
   },
   "modalities": {
-    "input": ["text", "image"],
+    "input": ["text", "image", "video"],
     "output": ["text"]
   },
   "pricing": {
-    "input": 2.9,
-    "output": 14,
-    "cached_input": 0.29
+    "input": 0.725,
+    "output": 10,
+    "cached_input": 0.725
   },
   "tools": ["function_calling"],
   "_generated": {
-    "name": "04a95a87",
+    "name": "e4978460",
     "family": "0740f86b",
-    "description": "3946ade1",
+    "description": "10a14e12",
     "release_date": "79a25cd1",
     "context_window": "7d28a051",
-    "max_output_tokens": "7d28a051",
+    "max_output_tokens": "7843f47e",
     "model_type": "d669f408",
     "tagline": "3946ade1",
     "capabilities": "03fbefb4",
-    "modalities": "6399757e",
-    "pricing": "cb08886b",
+    "modalities": "3ad4060a",
+    "pricing": "36658f06",
     "tools": "f0c1dc7e"
   },
-  "last_updated": "2026-07-31"
+  "last_updated": "2026-10-01"
 }

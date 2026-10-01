@@ -3,7 +3,7 @@
   "name": "Claude Haiku 4.5",
   "created_by": "anthropic",
   "source": "official",
-  "last_updated": "2026-06-03",
+  "last_updated": "2026-09-14",
   "model_type": "chat",
   "capabilities": {
     "streaming": true,
@@ -23,11 +23,13 @@
     "context_window": "03e6c616",
     "max_output_tokens": "762e98db",
     "reasoning_tokens": "b326b506",
-    "page_url": "9c96dcdf"
+    "page_url": "9c96dcdf",
+    "status": "2e2f74dc"
   },
   "release_date": "2025-10-16",
   "context_window": 200000,
   "max_output_tokens": 64000,
   "reasoning_tokens": true,
-  "page_url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-anthropic-claude-haiku-4-5"
+  "page_url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-anthropic-claude-haiku-4-5",
+  "status": "deprecated"
 }

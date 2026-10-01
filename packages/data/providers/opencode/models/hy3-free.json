@@ -1,0 +1,16 @@
+{
+  "id": "hy3-free",
+  "name": "Hy3 Free",
+  "created_by": "unknown",
+  "source": "official",
+  "status": "deprecated",
+  "capabilities": {
+    "streaming": true
+  },
+  "_generated": {
+    "name": "492220be",
+    "status": "2e2f74dc",
+    "capabilities": "0fa77dc6"
+  },
+  "last_updated": "2026-08-30"
+}

@@ -5,8 +5,8 @@
   "source": "official",
   "description": "KAT-Coder-Pro V2.5 is a flagship-level Agentic Coding model that can directly hand over an entire issue or an entire business workflow to it, allowing it to autonomously locate and make...",
   "release_date": "2026-07-10",
-  "context_window": 256000,
-  "max_output_tokens": 80000,
+  "context_window": 262144,
+  "max_output_tokens": 235929,
   "tagline": "KAT-Coder-Pro V2.5 is a flagship-level Agentic Coding model that can directly hand over an entire issue or an entire business workflow to it, allowing it to autonomously locate and make...",
   "capabilities": {
     "tool_call": true,
@@ -27,13 +27,13 @@
     "name": "55ba4478",
     "description": "74fedc88",
     "release_date": "cc3b8614",
-    "context_window": "2fd324cb",
-    "max_output_tokens": "144fdd8b",
+    "context_window": "4a1d32eb",
+    "max_output_tokens": "7ad80673",
     "tagline": "74fedc88",
     "capabilities": "6c9aa67e",
     "modalities": "68e53d93",
     "pricing": "c3328465",
     "tools": "f0c1dc7e"
   },
-  "last_updated": "2026-07-17"
+  "last_updated": "2026-09-01"
 }

@@ -3,9 +3,9 @@
   "name": "GPT-4o",
   "created_by": "openai",
   "source": "official",
-  "last_updated": "2026-03-26",
+  "last_updated": "2026-09-24",
   "family": "gpt-4o",
-  "description": "GPT-4o (“o” for “omni”) is our versatile, high-intelligence flagship model.",
+  "description": "GPT-4o (“o” for “omni”) is our versatile, high-intelligence flagship model. It accepts both text and image inputs, and produces text outputs (including Structured Outputs). It is the best model for most tasks, and is our most capable model outside of our o-series models.",
   "status": "active",
   "knowledge_cutoff": "2023-10",
   "context_window": 128000,
@@ -18,7 +18,7 @@
     "streaming": true,
     "vision": true,
     "tool_call": true,
-    "fine_tuning": false,
+    "fine_tuning": true,
     "structured_output": true,
     "json_mode": true,
     "reasoning": false,
@@ -36,6 +36,25 @@
     "batch_output": 5,
     "tiers": [
       {
+        "label": "Text tokens",
+        "unit": "Per 1M tokens",
+        "columns": ["Input", "Cached input", "Cache writes", "Output"],
+        "rows": [
+          {
+            "label": "Standard",
+            "values": [2.5, 1.25, null, 10]
+          },
+          {
+            "label": "Batch",
+            "values": [1.25, null, null, 5]
+          },
+          {
+            "label": "Fast",
+            "values": [4.25, 2.125, null, 17]
+          }
+        ]
+      },
+      {
         "label": "Fine-tuning",
         "unit": "",
         "columns": ["Training", "Input", "Cached input", "Output"],
@@ -46,19 +65,32 @@
           },
           {
             "label": "Batch",
-            "values": [null, 1.875, null, 7.5]
+            "values": [25, 2.225, 0.9, 12.5]
           }
         ]
       }
     ]
   },
-  "tools": ["function_calling"],
-  "endpoints": ["chat_completions", "responses", "assistants", "batch"],
+  "tools": [
+    "function_calling",
+    "web_search",
+    "file_search",
+    "image_generation",
+    "code_interpreter",
+    "mcp"
+  ],
+  "endpoints": [
+    "chat_completions",
+    "responses",
+    "assistants",
+    "batch",
+    "fine_tuning"
+  ],
   "snapshots": ["gpt-4o-2024-11-20", "gpt-4o-2024-08-06", "gpt-4o-2024-05-13"],
   "_generated": {
     "name": "6867acdf",
     "family": "15249632",
-    "description": "f06aa8e0",
+    "description": "3d53d7c5",
     "status": "379ac110",
     "knowledge_cutoff": "ffb42dbe",
     "context_window": "34434798",
@@ -67,18 +99,18 @@
     "performance": "eccbc87e",
     "speed": "eccbc87e",
     "tagline": "964f7a0b",
-    "capabilities": "15568d8c",
+    "capabilities": "c7bd5743",
     "modalities": "6399757e",
-    "pricing": "81e43e77",
-    "tools": "f0c1dc7e",
-    "endpoints": "1c48b50a",
+    "pricing": "c6d0d5e6",
+    "tools": "1d5a765f",
+    "endpoints": "ebc03c48",
     "license": "9186c466",
-    "page_url": "d3b7c6fb",
+    "page_url": "4d20d32d",
     "open_weight": "68934a3e",
     "release_date": "090277ab"
   },
   "license": "proprietary",
-  "page_url": "https://developers.openai.com/api/docs/models/gpt-4o?snapshot=gpt-4o-2024-11-20",
+  "page_url": "https://developers.openai.com/api/docs/models/gpt-4o",
   "open_weight": false,
   "release_date": "2024-11-20"
 }

@@ -1,6 +1,6 @@
 {
   "id": "gpt-transcribe",
-  "name": "GPT Transcribe",
+  "name": "GPT-Transcribe",
   "created_by": "openai",
   "source": "official",
   "description": "GPT Transcribe is a speech-to-text model for completed audio files, streamed file transcripts, and committed turns in Realtime sessions over WebSocket. It supports unstructured context, keyword hints, and multiple language hints to improve transcription of domain terms, multilingual audio, and code-switching.",
@@ -40,10 +40,10 @@
       }
     ]
   },
-  "endpoints": ["transcription", "realtime_transcription"],
+  "endpoints": ["realtime_transcription", "transcription"],
   "snapshots": ["gpt-transcribe"],
   "_generated": {
-    "name": "907f6e93",
+    "name": "f5b5018f",
     "description": "82bef3a3",
     "status": "379ac110",
     "model_type": "5e12d29a",
@@ -56,7 +56,7 @@
     "capabilities": "51394a4e",
     "modalities": "7cee5e0e",
     "pricing": "ea5e7e5d",
-    "endpoints": "6676924a"
+    "endpoints": "c986bdb3"
   },
-  "last_updated": "2026-07-30"
+  "last_updated": "2026-09-24"
 }

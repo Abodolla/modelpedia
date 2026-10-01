@@ -1,0 +1,16 @@
+{
+  "id": "tjhinsox/test-glm-ocr",
+  "name": "Test Glm Ocr",
+  "created_by": "tjhinsox",
+  "source": "official",
+  "status": "deprecated",
+  "model_type": "other",
+  "page_url": "https://replicate.com/tjhinsox/test-glm-ocr",
+  "_generated": {
+    "name": "8e310dbd",
+    "status": "2e2f74dc",
+    "model_type": "ddb0b7bc",
+    "page_url": "6be0e74d"
+  },
+  "last_updated": "2026-08-16"
+}

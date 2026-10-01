@@ -1,10 +1,10 @@
 {
   "id": "gpt-realtime-2.1-mini",
-  "name": "GPT-Realtime-2.1 mini",
+  "name": "GPT-Realtime-2.1 Mini",
   "created_by": "openai",
   "source": "official",
   "family": "gpt-realtime",
-  "description": "GPT-Realtime-2.1 mini is a distilled reasoning model for faster, lower-cost realtime voice interactions. It supports audio and text inputs over WebRTC, WebSocket, or SIP connections and improves alphanumeric recognition over GPT-Realtime-2.",
+  "description": "GPT-Realtime-2.1 Mini is a distilled reasoning model for faster, lower-cost realtime voice interactions. It supports audio and text inputs over WebRTC, WebSocket, or SIP connections and improves alphanumeric recognition over GPT-Realtime-2.",
   "status": "active",
   "model_type": "reasoning",
   "reasoning_tokens": true,
@@ -34,17 +34,6 @@
     "cached_input": 0.06,
     "tiers": [
       {
-        "label": "Text tokens",
-        "unit": "Per 1M tokens",
-        "columns": ["Input", "Cached input", "Output"],
-        "rows": [
-          {
-            "label": "Standard",
-            "values": [0.6, 0.06, 2.4]
-          }
-        ]
-      },
-      {
         "label": "Audio tokens",
         "unit": "Per 1M tokens",
         "columns": ["Input", "Cached input", "Output"],
@@ -52,6 +41,17 @@
           {
             "label": "Standard",
             "values": [10, 0.3, 20]
+          }
+        ]
+      },
+      {
+        "label": "Text tokens",
+        "unit": "Per 1M tokens",
+        "columns": ["Input", "Cached input", "Output"],
+        "rows": [
+          {
+            "label": "Standard",
+            "values": [0.6, 0.06, 2.4]
           }
         ]
       },
@@ -72,9 +72,9 @@
   "endpoints": ["realtime"],
   "snapshots": ["gpt-realtime-2.1-mini"],
   "_generated": {
-    "name": "36a02242",
+    "name": "3f19c583",
     "family": "f5032d33",
-    "description": "95a9c9da",
+    "description": "30a3c4a6",
     "status": "379ac110",
     "model_type": "17475f7f",
     "reasoning_tokens": "b326b506",
@@ -87,14 +87,14 @@
     "open_weight": "68934a3e",
     "capabilities": "d16fa23e",
     "modalities": "96cad1df",
-    "pricing": "dffaf5b0",
+    "pricing": "cdf75352",
     "tools": "f0c1dc7e",
     "endpoints": "c7ed7203",
     "knowledge_cutoff": "b0196d6e",
     "context_window": "34434798",
     "max_output_tokens": "10e4d788"
   },
-  "last_updated": "2026-07-09",
+  "last_updated": "2026-09-24",
   "knowledge_cutoff": "2024-09",
   "context_window": 128000,
   "max_output_tokens": 32000

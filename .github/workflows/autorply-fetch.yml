@@ -1,0 +1,98 @@
+name: Autorply Daily Model Update
+
+on:
+  schedule:
+    - cron: "15 6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-models:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+
+    steps:
+      - name: Checkout Autorply branch
+        uses: actions/checkout@v4
+        with:
+          ref: autorply-custom
+
+      - name: Setup Bun
+        uses: oven-sh/setup-bun@v2
+        with:
+          bun-version: latest
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Fetch providers
+        working-directory: packages/data
+        run: |
+          failed=()
+
+          scripts=(
+            fetch:provider-icons
+            fetch:openai fetch:anthropic fetch:google fetch:mistral
+            fetch:deepseek fetch:xai fetch:cohere fetch:zai
+            fetch:minimax fetch:alibaba fetch:meta fetch:moonshot
+            fetch:cerebras fetch:baseten fetch:openrouter fetch:perplexity
+            fetch:azure fetch:groq fetch:nvidia fetch:together
+            fetch:fireworks fetch:amazon fetch:vercel fetch:vertex
+            fetch:cloudflare-workers-ai fetch:cloudflare-ai-gateway
+            fetch:opencode fetch:ollama fetch:huggingface
+            fetch:qwen fetch:cursor fetch:xiaomi fetch:novita
+            fetch:bytedance fetch:stability fetch:ai21 fetch:voyage
+            fetch:replicate fetch:fal fetch:siliconflow fetch:parasail
+            fetch:nebius fetch:black-forest-labs fetch:deepinfra
+            fetch:inception fetch:jina fetch:recraft fetch:reka
+            fetch:sambanova fetch:stepfun fetch:writer
+          )
+
+          for script in "${scripts[@]}"; do
+            echo "=== $script ==="
+            if ! bun run "$script"; then
+              echo "FAILED: $script"
+              failed+=("$script")
+            fi
+          done
+
+          if [ ${#failed[@]} -gt 0 ]; then
+            printf '%s\n' "${failed[@]}" > "$GITHUB_WORKSPACE/fetch-failures.txt"
+          fi
+
+      - name: Generate
+        run: pnpm generate
+
+      - name: Validate
+        run: pnpm validate
+
+      - name: Build
+        env:
+          CI: "1"
+          TURBO_UI: "false"
+        run: pnpm build
+
+      - name: Commit data changes
+        run: |
+          if git diff --quiet packages/data/providers packages/data/src packages/npm/src; then
+            echo "No data changes"
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add packages/data/providers packages/data/src packages/npm/src
+          git commit -m "data: automated daily update $(date -u +%Y-%m-%d)"
+          git push origin HEAD:autorply-custom

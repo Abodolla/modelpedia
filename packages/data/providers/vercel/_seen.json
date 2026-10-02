@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-01",
-  "count": 383,
+  "date": "2026-10-02",
+  "count": 384,
   "ids": [
     "alibaba-qwen-3-14b",
     "alibaba-qwen-3-235b",
@@ -333,6 +333,7 @@
     "spacexai-grok-imagine-image-2.0",
     "spacexai-grok-imagine-video",
     "spacexai-grok-imagine-video-1.5",
+    "spacexai-grok-imagine-video-1.5-lite",
     "spacexai-grok-stt",
     "spacexai-grok-tts",
     "spacexai-grok-voice-think-fast-1.0",

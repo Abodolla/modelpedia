@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-02",
-  "count": 224,
+  "date": "2026-10-06",
+  "count": 222,
   "ids": [
     "ace-step-acestep-v15-xl-sft",
     "anthropic-claude-fable-5",
@@ -99,7 +99,6 @@
     "ibm-granite-granite-4.2-3b",
     "ibm-granite-granite-4.2-8b",
     "inclusionai-ling-3.0-flash",
-    "inclusionai-ling-3.0-flash-fin",
     "inclusionai-ling-3.0-flash-vl",
     "inclusionai-ming-image-0.1-design",
     "inclusionai-ming-image-0.1-design-layer",
@@ -184,7 +183,6 @@
     "qwen-qwen3.6-27b",
     "qwen-qwen3.6-35b-a3b",
     "qwen-qwen3.7-max",
-    "qwen-qwen3.8-2.4t-a95b",
     "qwen-qwen3.8-27b",
     "qwen-qwen3.8-flash",
     "qwen-qwen3.8-max",

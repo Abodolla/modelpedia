@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-06",
-  "count": 121,
+  "date": "2026-10-07",
+  "count": 122,
   "ids": [
     "codellama-codellama-7b-instruct-hf",
     "deepseek-ai-deepseek-r1-0528-qwen3-8b",
@@ -97,6 +97,7 @@
     "qwen-qwen3-next-80b-a3b-instruct",
     "qwen-qwen3guard-gen-0.6b",
     "qwen-qwen3guard-gen-4b",
+    "qwen-qwen3guard-gen-8b",
     "swiss-ai-apertus-8b-instruct",
     "swiss-ai-apertus-8b-instruct-2509",
     "tinyllama-tinyllama-1.1b-chat-v1.0",

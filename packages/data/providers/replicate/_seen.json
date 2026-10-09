@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-08",
-  "count": 125,
+  "date": "2026-10-09",
+  "count": 126,
   "ids": [
     "851-labs-background-remover",
     "adirik-flux-cinestill",
@@ -98,9 +98,10 @@
     "philz1337x-clarity-pro-upscaler",
     "philz1337x-crystal-video-upscaler",
     "piddnad-ddcolor",
-    "prunaai-p-image-edit",
+    "prunaai-p-image",
     "prunaai-p-image-upscale",
     "prunaai-p-video",
+    "prunaai-p-video-2",
     "prunaai-p-video-2-pro",
     "prunaai-p-video-avatar",
     "prunaai-z-image-turbo",

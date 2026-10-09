@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-08",
-  "count": 138,
+  "date": "2026-10-09",
+  "count": 139,
   "ids": [
     "ai21.jamba-1-5-large-v1-0",
     "ai21.jamba-1-5-mini-v1-0",
@@ -130,6 +130,7 @@
     "twelvelabs.marengo-embed-2-7-v1-0",
     "twelvelabs.marengo-embed-3-0-v1-0",
     "twelvelabs.pegasus-1-2-v1-0",
+    "twelvelabs.pegasus-1-5-v1-0",
     "writer.palmyra-vision-7b",
     "writer.palmyra-x4-v1-0",
     "writer.palmyra-x5-v1-0",

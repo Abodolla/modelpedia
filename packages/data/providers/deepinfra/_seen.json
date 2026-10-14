@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-11",
-  "count": 218,
+  "date": "2026-10-14",
+  "count": 220,
   "ids": [
     "ace-step-acestep-v15-xl-sft",
     "anthropic-claude-fable-5",
@@ -41,6 +41,7 @@
     "bria-fibo_edit-1.5",
     "bria-gen_fill",
     "bria-remove_background",
+    "bria-remove_background_guided",
     "bria-replace_background",
     "bria-video_eraser",
     "bria-video_foreground_mask",
@@ -73,6 +74,7 @@
     "deepseek-ai-deepseek-v4.1-flash",
     "fastvideo-fastwan-qad-fp8-1.3b",
     "fastvideo-fastwan2.2-ti2v-5b-fullattn-diffusers",
+    "google-embeddinggemma-2",
     "google-embeddinggemma-300m",
     "google-gemini-2.5-flash",
     "google-gemini-2.5-pro",

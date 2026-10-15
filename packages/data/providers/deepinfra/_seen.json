@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-14",
-  "count": 220,
+  "date": "2026-10-15",
+  "count": 221,
   "ids": [
     "ace-step-acestep-v15-xl-sft",
     "anthropic-claude-fable-5",
@@ -100,6 +100,7 @@
     "ibm-granite-granite-4.2-8b",
     "inclusionai-ling-3.0-flash",
     "inclusionai-ling-3.0-flash-vl",
+    "inclusionai-ling-3.1-flash",
     "inclusionai-ming-image-0.1-design",
     "inclusionai-ming-image-0.1-design-layer",
     "intfloat-e5-base-v2",
@@ -198,10 +199,10 @@
     "sesame-csm-1b",
     "shibing624-text2vec-base-chinese",
     "stabilityai-sdxl-turbo",
+    "stepfun-ai-step-5-preview",
     "tencent-hy4-preview",
     "thenlper-gte-base",
     "thenlper-gte-large",
-    "thinkingmachines-inkling",
     "thinkingmachines-inkling-small",
     "wan-ai-wan2.2-t2v-a14b",
     "wan-ai-wan2.6-i2v",

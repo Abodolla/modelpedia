@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-05",
+  "date": "2026-10-15",
   "count": 80,
   "ids": [
     "01-ai-yi-large",
@@ -38,7 +38,6 @@
     "mistralai-mistral-large-2-instruct",
     "mistralai-mixtral-8x22b-v0.1",
     "moonshotai-kimi-k2.6",
-    "moonshotai-kimi-k3",
     "nv-mistralai-mistral-nemo-12b-instruct",
     "nvidia-ai-synthetic-video-detector",
     "nvidia-cosmos-reason2-8b",
@@ -75,6 +74,7 @@
     "openai-gpt-oss-20b",
     "poolside-laguna-xs-2.1",
     "snowflake-arctic-embed-l",
+    "stepfun-ai-step-5-preview",
     "writer-palmyra-creative-122b",
     "writer-palmyra-fin-70b-32k",
     "writer-palmyra-med-70b",

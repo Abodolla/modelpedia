@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-17",
+  "date": "2026-10-18",
   "count": 125,
   "ids": [
     "851-labs-background-remover",
@@ -72,7 +72,6 @@
     "lucataco-deepseek-ocr",
     "lucataco-gpt-oss-safeguard-20b",
     "lucataco-kontext-realearth",
-    "lucataco-moondream2",
     "lucataco-remove-bg",
     "luma-reframe-video",
     "m1guelpf-nsfw-filter",
@@ -95,6 +94,7 @@
     "philz1337x-clarity-pro-upscaler",
     "philz1337x-crystal-video-upscaler",
     "piddnad-ddcolor",
+    "prunaai-p-image",
     "prunaai-p-image-edit",
     "prunaai-p-image-upscale",
     "prunaai-p-video",

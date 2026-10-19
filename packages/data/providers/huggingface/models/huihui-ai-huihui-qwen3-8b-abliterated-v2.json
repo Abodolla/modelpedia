@@ -1,0 +1,36 @@
+{
+  "id": "huihui-ai/Huihui-Qwen3-8B-abliterated-v2",
+  "name": "Huihui-Qwen3-8B-abliterated-v2",
+  "created_by": "huihui-ai",
+  "source": "official",
+  "description": "This is an uncensored version of [Qwen/Qwen3-8B](https://huggingface.co/Qwen/Qwen3-8B) created with abliteration (see [remove-refusals-with-transformers](https://github.com/Sumandora/remove-refusals-with-transformers) to know more about it). This is a crude, proof-of-concept implementation to remove refusals from an LLM model without using TransformerLens.",
+  "release_date": "2025-06-18",
+  "context_window": 40960,
+  "license": "apache-2.0",
+  "parameters": 8.2,
+  "page_url": "https://huggingface.co/huihui-ai/Huihui-Qwen3-8B-abliterated-v2",
+  "architecture": "transformer",
+  "tagline": "This is an uncensored version of [Qwen/Qwen3-8B](https://huggingface.co/Qwen/Qwen3-8B) created with abliteration (see [remove-refusals-with-transformers](https://github.com/Sumandora/remove-refusals-with-transformers) to know more about it).",
+  "capabilities": {
+    "streaming": true,
+    "tool_call": true,
+    "fine_tuning": true
+  },
+  "open_weight": true,
+  "tools": ["function_calling"],
+  "_generated": {
+    "name": "24ef67ad",
+    "description": "066469e0",
+    "release_date": "c8a753e1",
+    "context_window": "a422a18c",
+    "license": "60245731",
+    "parameters": "2a568439",
+    "page_url": "60957448",
+    "architecture": "8832ea0f",
+    "tagline": "8bbc0983",
+    "capabilities": "5780d00a",
+    "open_weight": "b326b506",
+    "tools": "f0c1dc7e"
+  },
+  "last_updated": "2026-10-19"
+}

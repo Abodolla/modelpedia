@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-18",
-  "count": 125,
+  "date": "2026-10-19",
+  "count": 126,
   "ids": [
     "851-labs-background-remover",
     "8digit-gener8-sam3",
@@ -72,6 +72,7 @@
     "lucataco-deepseek-ocr",
     "lucataco-gpt-oss-safeguard-20b",
     "lucataco-kontext-realearth",
+    "lucataco-moondream2",
     "lucataco-remove-bg",
     "luma-reframe-video",
     "m1guelpf-nsfw-filter",

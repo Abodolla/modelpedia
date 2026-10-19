@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-18",
-  "count": 406,
+  "date": "2026-10-19",
+  "count": 407,
   "ids": [
     "alibaba-qwen-3-14b",
     "alibaba-qwen-3-235b",
@@ -213,6 +213,7 @@
     "minimax-minimax-m2.7",
     "minimax-minimax-m2.7-highspeed",
     "minimax-minimax-m3",
+    "minimax-minimax-m3.1-flash",
     "mistral-codestral",
     "mistral-codestral-embed",
     "mistral-ministral-14b",

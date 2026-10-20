@@ -28,7 +28,7 @@
   },
   "tools": ["function_calling"],
   "endpoints": ["chat_completions"],
-  "quantization": "mxfp4",
+  "quantization": "fp4",
   "_generated": {
     "name": "33f058f2",
     "description": "c807a8b1",
@@ -43,7 +43,7 @@
     "pricing": "a4b96923",
     "tools": "f0c1dc7e",
     "endpoints": "d8fa1080",
-    "quantization": "1ae30bd0"
+    "quantization": "0e8a48ee"
   },
-  "last_updated": "2026-10-19"
+  "last_updated": "2026-10-20"
 }
